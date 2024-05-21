@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== REMIXICONS ===============-->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/css/swiper.min.css">
+
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Responsive dropdown menu - Bedimcode</title>
+</head>
+
+<body>
+   <!--=============== HEADER ===============-->
+   <header class="header">
+      <nav class="nav container">
+         <div class="nav__data">
+            <a href="#" class="nav__logo">
+               <img src="./assets/images/logo.png" alt="">
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line nav__burger"></i>
+               <i class="ri-close-line nav__close"></i>
+            </div>
+         </div>
+
+         <!--=============== NAV MENU ===============-->
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li><a href="#" class="nav__link">Home</a></li>
+
+               <li><a href="#" class="nav__link">Company</a></li>
+
+               <!--=============== DROPDOWN 1 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-pie-chart-line"></i> Overview
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-arrow-up-down-line"></i> Transactions
+                        </a>
+                     </li>
+
+                     <!--=============== DROPDOWN SUBMENU ===============-->
+                     <li class="dropdown__subitem">
+                        <div class="dropdown__link">
+                           <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                        </div>
+
+                        <ul class="dropdown__submenu">
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-file-list-line"></i> Documents
+                              </a>
+                           </li>
+
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-cash-line"></i> Payments
+                              </a>
+                           </li>
+
+                           <li>
+                              <a href="#" class="dropdown__sublink">
+                                 <i class="ri-refund-2-line"></i> Refunds
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+
+               <li><a href="#" class="nav__link">Products</a></li>
+
+               <!--=============== DROPDOWN 2 ===============-->
+               <li class="dropdown__item">
+                  <div class="nav__link">
+                     Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                  </div>
+
+                  <ul class="dropdown__menu">
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-user-line"></i> Profiles
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-lock-line"></i> Accounts
+                        </a>
+                     </li>
+
+                     <li>
+                        <a href="#" class="dropdown__link">
+                           <i class="ri-message-3-line"></i> Messages
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+
+               <li><a href="#" class="nav__link">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <div class="Section_top">
+      <div class="content">
+         <h1>Welcome to <br> Bio Agro Energy Pvt. Ltd.</h1>
+      </div>
+   </div>
+
+   
+
+   <!-- About us section -->
+
+   <section>
+      <h1 class="heading">About us</h1>
+      <div class="row">
+         <div class="imgWrapper">
+            <img src="./assets/images/img-1.png" alt="">
+         </div>
+         <div class="contentWrapper">
+            <div class="content">
+               <span class="textWrapper">
+                  <!-- <span>About Us</span> -->
+               </span>
+               <h2>Welcome to Bio-Agro Energy</h2>
+               <p>
+                  A leader in the production and distribution of high-quality ethanol. Founded with a commitment to
+                  sustainability and innovation, Bio-Agro Energy is dedicated to creating a cleaner, greener future
+                  through renewable energy solutions.
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <!-- partners section start  -->
+   <section class="partners" id="Review">
+      <h1 class="heading">Our Investor</h1>
+
+      <div class="ReviewSlide swiper-container">
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-1.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-2.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-3.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-4.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-5.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-6.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-7.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-8.png" alt="">
+               </div>
+            </div>
+            <div class="swiper-slide box">
+               <div class="img">
+                  <img src="./assets/images/Logo/logo-9.png" alt="">
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
+
+   <section class="about" id="About">
+      
+
+      <div class="row">
+
+         <div class="about-img-1">
+            <img src="./assets/images/do.jpeg" alt="">
+         </div>
+
+         <div class="content scroll-top">
+            <h1 class="heading">What We Do</h1>
+            <!-- <p class="content-bold">Building a successful brand is a very complex process and requires intellectual
+               capital from all stakeholders.
+            </p> -->
+            <p> 
+               Bio Agro Energy specializes in the production of ethanol through the fermentation of organic materials, primarily sourced from locally-grown, sustainable crops. Our state-of-the-art facilities and cutting-edge technology ensure that our ethanol is of the highest quality, meeting rigorous industry standards. We supply ethanol for a variety of uses, including fuel for vehicles, industrial applications, and as a critical ingredient in the production of beverages and personal care products.
+            </p>
+
+            <!-- <a href="contact.html" class="btn">Contact Us</a> -->
+
+
+         </div>
+         
+      </div>
+
+   </section>
+   <section class="about" id="About">
+      
+
+      <div class="row">
+
+         
+
+         <div class="content scroll-top">
+            <h1 class="heading">Our Mission</h1>
+            <!-- <p class="content-bold">Building a successful brand is a very complex process and requires intellectual
+               capital from all stakeholders.
+            </p> -->
+            <p> 
+               At GreenFuel Ethanol, our mission is to harness the power of natural resources to produce eco-friendly ethanol that reduces carbon emissions and promotes environmental stewardship. We strive to offer superior, sustainable fuel options that meet the needs of today’s energy-conscious consumers and industries.
+            </p>
+
+            <!-- <a href="contact.html" class="btn">Contact Us</a> -->
+
+
+         </div>
+         <div class="about-img-1">
+            <img src="./assets/images/mission.jpeg" alt="">
+         </div>
+         
+      </div>
+
+   </section>
+
+   <!-- Team Section -->
+
+   <h1 class="heading">Our Team</h1>
+   <br>
+   <div class="team">
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-1.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Rahul Panda</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Chief Marketing Officer</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-2.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Aniket Patel</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Finance Head</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-3.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Nishita Patra</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Web Developer</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-4.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Nandini Roy</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Chief Operating Officer</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-5.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Aaditi Agarwal</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">HR Manager</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-6.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Rajesh Kumar</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Chief Executive Officer</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card">
+         <div class="imgBox">
+            <img src="./assets/images/pic-7.jpg" alt="">
+         </div>
+
+         <div class="upper">
+            <div class="name">Mahaprasad Beura</div>
+         </div>
+
+         <div class="lower">
+            <div class="post">Chief Financial Officer</div>
+
+            <div class="sci">
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+   <section>
+      
+  
+      <div class="map box-1">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223700.1490386933!2d-97.11558670486288!3d28.829485511234168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864266db2e2dac3b%3A0xeee20d566f63267d!2sVictoria%2C%20TX%2C%20USA!5e0!3m2!1sen!2snp!4v1604921178092!5m2!1sen!2snp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+        <!-- <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59874.386093190675!2d85.80115351546623!3d20.294093431263352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a151827ab86f%3A0x16f267170da486b2!2sExponair%20Events%20%26%20Promotions!5e0!3m2!1sen!2sin!4v1714105567080!5m2!1sen!2sin"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3742.175787465484!2d85.81646127385297!3d20.292989712645255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909121a2b07b7%3A0xd1b39b485fbdc6ff!2sBio%20Agro%20Energy%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1716268769241!5m2!1sen!2sin" width="100%" height="450" style="border:0; box-shadow: -4px 3px 10px 0px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+   
+
+
+
+   <footer class="footer-distributed">
+
+      <div class="footer-left">
+         <h3>Bio Agro <span>Energy</span></h3>
+
+         <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="#">About</a>
+            |
+            <a href="#">Contact</a>
+            |
+            <a href="#">Blog</a>
+         </p>
+
+         <p class="footer-company-name">Copyright © 2021 <strong>Trackepay</strong> All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+         <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Bhubaneswar</span>
+               Odisha</p>
+         </div>
+
+         <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 9437828602</p>
+         </div>
+         <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:info@bioagroenergy.com">info@bioagroenergy.com</a></p>
+         </div>
+      </div>
+      <div class="footer-right">
+         <p class="footer-company-about">
+            <span>About the company</span>
+            A leader in the production and distribution of high-quality ethanol. Founded with a commitment to sustainability and innovation, Bio-Agro Energy is dedicated to creating a cleaner, greener future through renewable energy solutions.
+         </p>
+         <div class="footer-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+         </div>
+      </div>
+   </footer>
+
+
+
+
+
+
+   <script src="	https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
