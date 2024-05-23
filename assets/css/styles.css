@@ -59,7 +59,7 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+  max-width: 1200px;
   margin-inline: 1.5rem;
 }
 
@@ -248,7 +248,7 @@ a {
 }
 
 .dropdown__sublink {
-  background-color: var(--black-color-lighten);
+  background-color: #a1d55f;
 }
 
 
@@ -345,7 +345,7 @@ a {
   .nav__list {
     height: 100%;
     display: flex;
-    column-gap: 3rem;
+    column-gap: 2rem;
   }
 
   .nav__link {
