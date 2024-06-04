@@ -269,6 +269,7 @@ a {
   animation: change 10s infinite ease-in-out;
 }
 
+
 @keyframes change {
   0% {
     background-image: url(../images/img-4.png);
@@ -297,6 +298,29 @@ a {
 
 .Section_top .content {
   margin-top: 160px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #a1e153;
+  text-shadow: 3px 3px 0px black;
+}
+
+.Section_top-1 {
+  width: 100%;
+  height: 30vh;
+  margin-top: 85px;
+  overflow: hidden;
+  position: relative;
+  background-image: url(../images/img-1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  object-fit: cover;
+  animation: change 10s infinite ease-in-out;
+}
+.Section_top-1 .content {
+  margin-top: 50px;
   font-size: 2rem;
   font-weight: 600;
   color: #a1e153;
@@ -472,6 +496,16 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
+  overflow-x: hidden;
+  padding: 2rem 0;
+}
+
+.row-1 {
+  width: 100%;
+  max-width: 1170px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* grid-gap: 50px; */
   overflow-x: hidden;
   padding: 2rem 0;
 }
